@@ -70,10 +70,6 @@
 -   Manage jobs (completing the protocol in a project)
 -   Manage products (output from a job)
 
-## 📐 Tests
--   Interactive code coverage diagram on [codecov](https://codecov.io/gh/JacobGrisham/Synthetic-Biology-LIMS). The code coverage takes into account both the Django unit tests and the React unit/integration tests.
--   [Django unit](https://app.circleci.com/pipelines/github/JacobGrisham/Synthetic-Biology-LIMS/50/workflows/d5bd12a2-0792-49e8-b318-54b0cb35f843/jobs/117/tests) and the [React unit/integration](https://app.circleci.com/pipelines/github/JacobGrisham/Synthetic-Biology-LIMS/50/workflows/d5bd12a2-0792-49e8-b318-54b0cb35f843/jobs/116/tests) junit.xml test reports and code coverage artifacts automatically uploaded to circleci.
-
 ## 🚀 Getting Started
 ### System requirements:
 -   Make sure you have [PostgreSQL](https://www.postgresql.org/download/) installed and running on your computer. If you installed PostgreSQL with [Homebrew](https://brew.sh/), then you can start PostgreSQL with `brew services start postgresql`
@@ -126,11 +122,3 @@
   <li>Open a new terminal tab or window, navigate to the directory react-frontend/frontend, and run <code>npm start</code></li>
   <li>To view the application in a web browser, visit <a href='http://localhost:3000'>http://localhost:3000</a></li>
 </ol>
-
-### To contribute to this project on your system:
--   Ensure that `git lfs` is installed on your system. Download the extension here [git-lfs.github.com](https://git-lfs.github.com/).
--   To make git commits, navigate to the root directory, add files to git staging with `git add <path/to/file>`, and then run `git commit` to activate the [Gitmoji](https://gitmoji.dev) interactive prompt in your terminal. Here's a preview of the [interactive prompt](https://www.npmjs.com/package/gitmoji-cli). After completing the prompt, exit with `:wq`
--   If making README.md updates, be sure to add `[skip ci]` to the git commit message in order to prevent running unneccessary tests in continuous integration and deployment.
-
-## 🔒 License
-Copyright Notice and Statement: currently not offering any license. Permission only to view and download. Refer to [choose a license](https://choosealicense.com/no-permission/) for more info.
