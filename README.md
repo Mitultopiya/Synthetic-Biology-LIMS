@@ -10,8 +10,6 @@
   ![GitHub all releases](https://img.shields.io/github/downloads/JacobGrisham/Synthetic-Biology-LIMS/total)
 </div>
 
-## 🎓 [Final Project](https://cs50.harvard.edu/web/2020/projects/final/capstone/) for [Harvard's Web Programming with Python and Javascript CS50W hosted on eDX](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript)
-
 ## 💡Lessons Learned
 -   Gathering business requirements and scoping project feature development
 -   Prototyping Single Page Application User Interface in AdobeXD
